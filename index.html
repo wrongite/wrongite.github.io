@@ -72,6 +72,28 @@
             } catch(err) {}
           </script>
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAD0gUi3ZbsunkR3YOtz7eVqe_gLUfuFSg",
+    authDomain: "haha-811dc.firebaseapp.com",
+    databaseURL: "https://haha-811dc.firebaseio.com",
+    projectId: "haha-811dc",
+    storageBucket: "haha-811dc.appspot.com",
+    messagingSenderId: "322718461908",
+    appId: "1:322718461908:web:05ab1021ee3ecbf7cbf041",
+    measurementId: "G-EY7QLZNSCL"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
   </body>
 </html>
